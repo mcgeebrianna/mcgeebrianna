@@ -440,7 +440,7 @@ summary(Count_Anova2)
 #   get_anova_table () %>%
 #   adjust_pvalue(method = "bonferroni")
 
-########################## for random t-test
+########################## t-test to assess age related differences in the number of looks to each object
 FC_Ttest_8 <- c(); # data.frame(matrix(ncol = 1, nrow = 0))
 FC_Ttest_12 <- c(); # data.frame(matrix(ncol = 1, nrow = 0))
 FC_Ttest_18 <- c(); # data.frame(matrix(ncol = 1, nrow = 0))
